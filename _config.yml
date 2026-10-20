@@ -1,0 +1,7 @@
+title: Moja Strona z API Python
+description: Statyczna strona Jekyll z dynamicznymi danymi co 5 minut.
+theme: minima # Używamy domyślnego, lekkiego motywu GitHuba
+
+# Informujemy Jekylla, aby na pewno skopiował plik z danymi do gotowej strony
+include:
+  - assets/dane.json
